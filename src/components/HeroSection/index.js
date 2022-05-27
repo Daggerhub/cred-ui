@@ -1,12 +1,10 @@
 import React from 'react'
 import Button from '../Button'
-import Header from '../Header'
 import "./heroSection.css"
 
 const HeroSection = () => {
   return (
     <div className='hero-section-wrapper'>
-      <Header/>
       <div className="flex absolute-center hero-claim-label">
         <div>pay credit card bill. earn guaranteed ₹200 back.</div>
         <div className="claim-anchor">
