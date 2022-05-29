@@ -40,6 +40,7 @@ const ScreenText = ({ screen, setCurrentImg, i }) => {
               src={screen.mobile_img}
               className="mobile-screen-img slide-in-right "
               key={screen.mobile_img}
+              alt="mobileScreenImg"
             />
           </div>
         </div>
